@@ -1,0 +1,18 @@
+from time import sleep
+import sys
+import math
+
+skibidi = 10000
+sys.set_int_max_str_digits(skibidi)
+def getint(question):
+    while True:
+        try:
+            a = int(input(question))
+            return a
+        except ValueError as e:
+            print (f"{e}\nPlease enter a whole number")
+num = 1
+name = input("hey im gonna help you do some maths stuff but first, whats your name? ")
+while True:
+    print (num)
+    num += num
